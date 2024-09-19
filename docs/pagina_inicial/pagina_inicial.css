@@ -5,13 +5,14 @@
     max-width: 1600px;
 }
 body {
-max-width: 1600px;
-font-family: 'Poppins', sans-serif;
-
+    max-width: 1600px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000; /* changed to black */
 }
+
 .Card-home{
     display: flex;
-    background-color: #132d46;
+    background-color: #000; /* changed to dark red */
     margin-top: 0;
     margin-bottom: 0;
     height: 600px;
@@ -27,9 +28,9 @@ font-family: 'Poppins', sans-serif;
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 0;
-    font-family:Calibri,sans-serif;
+    font-family: Calibri, sans-serif;
     font-weight: 400;
-    color: #898787;
+    color: #fff; /* changed to white */
 }
 .logo {
     display: flex;
@@ -42,7 +43,7 @@ font-family: 'Poppins', sans-serif;
 
 }
 .titulo {
-    background-color: #1A1E29;
+    background-color: #400; /* changed to dark red */
     position: fixed;
     width: 1600px;
     height: 90px;
@@ -59,7 +60,7 @@ font-family: 'Poppins', sans-serif;
     align-items:center;
     justify-items: center;
     background-color: transparent;
-    color: white;
+    color: #fff; /* changed to white */
     border-style: none;
     cursor: pointer;
     position: relative;
@@ -72,20 +73,19 @@ font-family: 'Poppins', sans-serif;
     
 }
 .serviço:hover {
-    background-color: #00c48e;
-
+    background-color: #800; /* changed to dark red */
 }
+
 .fale_conosco:hover {
-    background-color: #00c48e;
-
+    background-color: #800; /* changed to dark red */
 }
+
 .empresa:hover {
-    background-color: #00c48e;
-
+    background-color: #800; /* changed to dark red */
 }
-.quem_somos:hover {
-    background-color: #00c48e;
 
+.quem_somos:hover {
+    background-color: #800; /* changed to dark red */
 }
 
 
@@ -101,9 +101,9 @@ font-family: 'Poppins', sans-serif;
     cursor:pointer;
     margin-left: 0px;
     margin: none;
-    background-color: #5a5a5a;
+    background-color: #400; /* changed to dark red */
     border-style: none;
-    color: aliceblue;
+    color: #fff; /* changed to white */
     font-size: 17px;
     font-weight: 100;
 }
@@ -113,19 +113,18 @@ font-family: 'Poppins', sans-serif;
 }
 .registre{
     padding: 10px;
-    background-color: #2c2c2c;
+    background-color: #600; /* changed to dark red */
 }
 .entrar:hover{
-    background-color: #00c48e;
+    background-color: #800; /* changed to dark red */
     
 }
 .registre:hover {
-    background-color: #00c48e;
-
+    background-color: #800; /* changed to dark red */
 }
 .qr_conhecer {
-    background-color: #c7c4c4;
-    color: #060f18;
+    background-color: #600; /* changed to dark red */
+    color: #fff; /* changed to white */
     font-weight: 550;
     font-style: normal;
     font-family: 'Poppins', sans-serif;
@@ -141,16 +140,16 @@ font-family: 'Poppins', sans-serif;
     top: 440px;
 }
 .qr_conhecer:hover{
-    background-color: #00c48e;
-
+    background-color: #800; /* changed to dark red */
 }
+
 .acs_conta:hover {
-    background-color: #00c48e;
-
+    background-color: #800; /* changed to dark red */
 }
+
 .acs_conta{
-    background-color: #2c2c2c;
-    color: white;
+    background-color: #400; /* changed to dark red */
+    color: #fff; /* changed to white */
     font-weight: 550;
     font-style: normal;
     font-family: Calibri, sans-serif;
@@ -167,11 +166,11 @@ font-family: 'Poppins', sans-serif;
     
 
 }  
-  .carousel-container {
+.carousel-container {
     position: relative;
     width: 1520px;
     overflow: hidden;
-    background-color: #1A1E29;
+    background-color: #400; /* changed to dark red */
     padding: 10px;
 
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
@@ -181,7 +180,7 @@ font-family: 'Poppins', sans-serif;
   h1 {
     font-size: 28px;
     margin-bottom: 30px;
-    color: #FFFFFF;
+    color: #fff; /* changed to white */
     text-transform: uppercase;
     letter-spacing: 2px;
   }
@@ -194,7 +193,7 @@ font-family: 'Poppins', sans-serif;
   .box {
     min-width: 100%;
     padding: 10px;
-    background: #2C2C34;
+    background: #600; /* changed to dark red */
     border-radius: 15px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
     transform: scale(0.9);
@@ -213,18 +212,18 @@ font-family: 'Poppins', sans-serif;
   
   .icon i {
     font-size: 40px;
-    color: #00C48E;
+    color: #fff; /* changed to white */
   }
   
   .box h2 {
     font-size: 22px;
-    color: #00C48E;
+    color: #fff; /* changed to white */
     margin-bottom: 10px;
   }
   
   .box p {
     font-size: 16px;
-    color: #EAEAEA;
+    color: #fff; /* changed to white */
   }
   
   button {
@@ -232,7 +231,7 @@ font-family: 'Poppins', sans-serif;
     top: 50%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.8);
-    color: white;
+    color: #fff; /* changed to white */
     border: none;
     padding: 15px;
     cursor: pointer;
@@ -248,7 +247,4 @@ font-family: 'Poppins', sans-serif;
     right: 10px;
   }
   
-  button:hover {
-    background-color: #00C48E;
-  }
-  
+ 
